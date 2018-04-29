@@ -10,7 +10,7 @@ run () {
 }
 
 install_redis () {
-  	docker pull $redis_image
+  docker pull $redis_image
 	run ${ports[0]}
 	run ${ports[1]}
 	run ${ports[2]}
