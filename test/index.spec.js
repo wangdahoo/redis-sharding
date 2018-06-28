@@ -1,3 +1,5 @@
+process.env.REDIS_SHARDING_DISABLE_LOGGING = 'yes'
+
 const assert = require('assert')
 const Sharding = require('../lib')
 const sharding = new Sharding({
